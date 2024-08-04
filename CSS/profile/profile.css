@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 0px;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+h1{
+    padding: 8x;
+}
+p{
+    padding: 8px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.profile-picture{
+
+        height: 90px ;
+        width: 90px;
+        
+    }
+
+    main {
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+    }
+
+section{
+    margin-bottom: 20px;
+}
+h2{
+    border-bottom: 2px solid #333;
+    padding-bottom: 4px;
+}
+
+li{
+    padding-top: 5px;
+}
+
+
+
+
+

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+
+.action-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px 30px; 
+    font-size: 15px;
+    border-radius: 5px;  
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+
+
