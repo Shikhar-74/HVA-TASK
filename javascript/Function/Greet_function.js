@@ -34,6 +34,3 @@
 // }
 // console.log(greet('shikhar'));
 
-
-
-// my name is shikhar shukla 
