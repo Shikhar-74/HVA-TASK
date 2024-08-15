@@ -64,30 +64,59 @@
 // console.log(result.getfulladdress());
 
 
-class Employee{
-   constructor(name,age,email,department,position,salary){
-      this.name = name
-      this.age = age
-      this.email = email
-      this.department = department
-      this.position = position
-      this.salary = salary
-   }
-   introduce(){
-      return `Hello, I am ${this.name} software Developer`
-   }
-   displaysalary(){
-      return `salary ${this.salary}`
-   }
-}
-let newEmployee = new Employee('shikhar','22','shuklashikhar','sales','manager',500000000000)
-console.log(newEmployee);
-let result = newEmployee.introduce()
-console.log(result);
 
-newEmployee.displaysalary()
 
-let manager = new Employee('shikhar','22','shuklashikhar','sales','manager',500000000000)
-console.log(manager);
-manager.introduce()
-manager.displaysalary()
+
+
+// employee data 
+
+// class Employee{
+//    constructor(name,age,email,department,position,salary){
+//       this.name = name
+//       this.age = age
+//       this.email = email
+//       this.department = department
+//       this.position = position
+//       this.salary = salary
+//    }
+//    introduce(){
+//       return `Hello, I am ${this.name} software Developer`
+//    }
+//    displaysalary(){
+//       return `salary ${this.salary}`
+//    }
+// }
+// let newEmployee = new Employee('shikhar','22','shuklashikhar','sales','manager',500000000000)
+// console.log(newEmployee);
+// let result = newEmployee.introduce()
+// console.log(result);
+// let salary = newEmployee.displaysalary()
+// console.log(salary);
+
+
+
+// book data
+
+// class Book {
+//    constructor(title, author, publisher, year,  genre){
+//       this.title = title
+//       this.author = author
+//       this.publisher = publisher
+//       this.year = year
+//       this.genre = genre
+//    }
+//    describe(){
+//       return `${this.title} - ${this.author} - ${this.year}`;
+//    }
+
+//    displaygenre(){
+//       return `genre ${this.genre}`;
+//    }
+// }
+
+// let mybook = new Book ("Five Point Someone", "Chetan Bhagat", "Rupa Publications", 2004, "Fiction")
+// let result = mybook.describe()
+// console.log(result);
+// let result1 = mybook.displaygenre()
+// console.log(result1);
+
